@@ -1,5 +1,5 @@
-package videoJuego;
-import java.util.Scanner;
+package videoJuego.Principal;
+
 public class Vehiculos {
 
     private int nPersonas;

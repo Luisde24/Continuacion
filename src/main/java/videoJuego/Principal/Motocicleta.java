@@ -1,7 +1,7 @@
 
-package videoJuego;
+package videoJuego.Principal;
 
-public class Motocicleta extends Vehiculos {
+public class Motocicleta extends Vehiculos implements  Attackable, Shootable {
 
     public Motocicleta(int nPersonas, int cToneladas, String listaArmamento, int municiones) {
         super(nPersonas, cToneladas, listaArmamento, municiones);

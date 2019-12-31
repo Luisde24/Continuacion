@@ -1,5 +1,5 @@
 
-package videoJuego;
+package videoJuego.Principal;
 
 public interface Shootable {
 

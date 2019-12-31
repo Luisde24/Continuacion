@@ -1,7 +1,7 @@
 
-package videoJuego;
+package videoJuego.Principal;
 
-public class PortaAviones extends Vehiculos {
+public class PortaAviones extends Vehiculos implements Attackable, Shootable {
 
     public PortaAviones(int nPersonas, int cToneladas, String listaArmamento, int municiones) {
         super(nPersonas, cToneladas, listaArmamento, municiones);

@@ -1,4 +1,4 @@
-package videoJuego;
+package videoJuego.Principal;
 
 public class CruceroAlabama extends Vehiculos implements Attackable,Throwable, Dropable {
 

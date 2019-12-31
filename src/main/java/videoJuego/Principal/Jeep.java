@@ -1,7 +1,7 @@
 
-package videoJuego;
+package videoJuego.Principal;
 
-public class Jeep extends Vehiculos  {
+public class Jeep extends Vehiculos  implements Attackable, Shootable{
 
     public Jeep(int nPersonas, int cToneladas, String  listaArmamento, int municiones) {
         super(nPersonas, cToneladas, listaArmamento, municiones);

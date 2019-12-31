@@ -1,9 +1,9 @@
 
-package videoJuego.Principal;
+package videoJuego.Principal.Principal;
 
-import com.sun.javafx.geom.AreaOp;
-import videoJuego.*;
+import videoJuego.Principal.*;
 
+import java.lang.Throwable;
 import java.util.ArrayList;
 
 public class Principal {
@@ -20,7 +20,7 @@ public class Principal {
         //cumpliemiento de trequerimiento 3
         Jeep j = new Jeep(4,30,"Metralleta", 10);
         j.doShoot();
-        Motocicleta  m = new Motocicleta(5,1,"Metralleta", 12);
+        Motocicleta m = new Motocicleta(5,1,"Metralleta", 12);
         m.doShoot();
         PortaAviones p = new PortaAviones(8000,1500,"Metralleta", 130);
         p.doShoot();
@@ -45,7 +45,17 @@ public class Principal {
 
         //cumplimiento del requisito 6
 
-        ArrayList<Vehiculos>  doThrow = new ArrayList<Vehiculos>();
+        //EN CADA UNO DE LOS ARREGLOS VAN AQUELLOS QUE TIENEN UNA FUNCION DE ATACAR, SOLTAR BOMBAS, LANZAR CAÑON Y DISPARAR
+        //RAFAGA LAS CUALES NO HICE POR QUE SE ME ACABO EL TIEMPO. Y POR AVERSEME BORRADO LA INFORMACION QUE TENIA.
+        //AQUI ES DONDE MAS PUDE HACER PROFESOR.
+        ArrayList<Attackable>  combinado = new ArrayList<Attackable>();
+
+        ArrayList<Shootable>  combinado1 = new ArrayList<Shootable>();
+
+        ArrayList<Throwable>  combinado2 = new ArrayList<Throwable>();
+
+
+        ArrayList<Dropable>  combinado3 = new ArrayList<Dropable>();
 
 
 

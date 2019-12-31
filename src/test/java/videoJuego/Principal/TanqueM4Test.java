@@ -1,4 +1,4 @@
-package videoJuego;
+package videoJuego.Principal;
 
 public class TanqueM4Test {
 }

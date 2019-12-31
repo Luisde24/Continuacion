@@ -1,5 +1,5 @@
 
-package videoJuego;
+package videoJuego.Principal;
 
 public class CamionHI extends Vehiculos implements Dropable, Throwable  {
 

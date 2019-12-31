@@ -1,6 +1,6 @@
-package videoJuego;
+package videoJuego.Principal;
 
-public class TanqueM4 extends Vehiculos  {
+public class TanqueM4 extends Vehiculos implements Attackable, Throwable  {
 
     public TanqueM4(int nPersonas, int cToneladas, String listaArmamento, int municiones) {
         super(nPersonas, cToneladas, listaArmamento, municiones);

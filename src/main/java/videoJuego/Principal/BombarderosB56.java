@@ -1,6 +1,6 @@
-package videoJuego;
+package videoJuego.Principal;
 
-public class BombarderosB56 extends Vehiculos  {
+public class BombarderosB56 extends Vehiculos implements Attackable, Dropable {
 
     public BombarderosB56(int nPersonas, int cToneladas, String listaArmamento, int municiones) {
         super(nPersonas, cToneladas, listaArmamento, municiones);
